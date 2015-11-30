@@ -22,7 +22,7 @@ use Nette\PhpGenerator as Code;
 class ReplicatorExtension extends Nette\DI\CompilerExtension
 {
 
-	public function afterCompile(Code\ClassType $class)
+	public function afterCompile(Nette\PhpGenerator\ClassType $class)
 	{
 		parent::afterCompile($class);
 
